@@ -11,28 +11,36 @@
         color: blue;
         font-size: 30px;
         padding-top: 10px; /* Formato individual de seleção - Margem interna superior */
-        padding-bottom: 10px;
         padding-right: 5px;
+        padding-bottom: 10px;
         padding-left: 5px;
     }
+
+#para1 {
+    color: red;
+    padding: 10px 5px 10px 5px;
+}
 
 </style>
 </head>
 <body>
 
 <h1 style="color:blue; text-align:center; font-size:5rem;"> 
-Sou um título CSS inline (CSS - Cascading Style Sheets)
+Sou um título CSS inline
 </h1>
-<p>Sou um parágrafo CSS interno</p>
-<p>Ao utilizar o seletor de elementos, 
-todos os elementos serão afetados pelo estilo CSS, ou seja, 
+
+<p>Ao utilizar o seletor de elementos, todos os elementos 
+serão afetados pelo estilo CSS, ou seja, 
 todos os parágrafos terão as mesmas propriedades CSS.
 </p>
 
+<!-- pode usar os parametros do CSS "p" ou "id" -->
+<!-- usa os parametros do CSS "p" , mais como tem id, usa o id -->
 <p id="para1">
-Sou um paragrafo CSS externo, que mesmo tendo um id, sou afetado pelo estilo
-aplicado via seletor de elementos, ou seja, o estilo CSS externo me afeta,
-e também pelo estilo aplicado via id, ou seja, o estilo CSS interno.
+
+Sou um paragrafo que usa o estilo CSS interno de "p", 
+mais como também tenho uma id, sou afetado pelo estilo via seletor de elementos,
+então meu estilo usado é do "id".
 </p>
 
 <h2 class="elemento-com-borda">
