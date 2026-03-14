@@ -1,0 +1,21 @@
+.elemento-com-borda{
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.cascata{
+    background-color: lightblue;   
+}
+
+/*#para2{*/
+    /*background-color: lightgreen;*/ /* Exemplo de Comentário */
+/*}*/
+
+.gradiente {
+    font-weight: 100;
+    font-size: 3rem;
+    width: 400px;
+    height: 300px;
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    margin: 20px 30px;
+}
