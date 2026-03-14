@@ -1,10 +1,12 @@
+/* gerador de borda */
 .elemento-com-borda{
     border: 2px solid black;
     padding: 10px;
 }
 
+/* preenchedor de fundo */
 .cascata{
-    background-color: lightblue;   
+    background-color:lightblue;
 }
 
 /*#para2{*/
